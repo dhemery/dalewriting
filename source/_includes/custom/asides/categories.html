@@ -3,7 +3,7 @@
 	<ul id="category">
 		{% for category in site.categories %}
 		<li>
-			<a href="{{ site.url}}/{{ site.category_dir }}/{{ category | first | downcase | replace:' ','-' }}">{{ category | first  }}</a>
+			<a href="/{{ site.category_dir }}/{{ category | first | downcase | replace:' ','-' }}">{{ category | first  }}</a>
 		</li>
 		{% endfor %}
 	</ul>
