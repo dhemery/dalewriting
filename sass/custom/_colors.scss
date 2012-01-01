@@ -1,18 +1,42 @@
-// Here you can easily change your sites's color scheme.
-// To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
-// If you need a handy color picker try http://hslpicker.com
+$dark-color: rgb(0%, 40%, 40%);
+$medium-color: scale-saturation(scale-lightness($dark-color, 50), -80);
+$light-color: scale-saturation(scale-lightness($dark-color, 90), -90);
+$very-light-color: scale-saturation(scale-lightness($dark-color, 98), -90);
 
-//$header-bg: #263347;
-//$subtitle-color: lighten($header-bg, 58);
-//$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
-//$nav-bg-front: image-url('noise.png');
-//$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
-//$sidebar-bg: desaturate(#eceff5, 8);
-//$sidebar-link-color: saturate(#526f9a, 10);
-//$sidebar-link-color-hover: darken(#7ab662, 9);
-//$footer-bg: #ccc !default;
-//$footer-bg-front: image-url('noise.png');
-//$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
+$link-color: $dark-color;
+$link-color-hover: $link-color;
+$link-color-visited: $link-color;
+
+$header-bg: $dark-color;
+$main-bg: $very-light-color;
+$page-bg: $medium-color;
+
+$title-text: white;
+$subtitle-color: $title-text;
+$text-color-light: $medium-color;
+
+$nav-bg: $light-color;
+$nav-bg-front: $nav-bg;
+$nav-bg-back: $nav-bg;
+$nav-border-top: $light-color;
+$nav-color: $dark-color;
+$nav-color-hover: $nav-color;
+
+$sidebar-bg: $light-color;
+$sidebar-color: $dark-color;
+$sidebar-link-color: $sidebar-color;
+$sidebar-link-color-hover: $sidebar-color;
+$sidebar-link-color-subdued: $sidebar-color;
+$sidebar-link-color-subdued-hover: $sidebar-color;
+$sidebar-border: $medium-color;
+$twitter-status-link: $sidebar-color;
+
+$footer-bg: $light-color;
+$footer-bg-front: $footer-bg;
+$footer-bg-back: $footer-bg;
+$footer-color: $text-color-light;
+$footer-link-color: $footer-color;
+$footer-link-color-hover: $footer-color;
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */

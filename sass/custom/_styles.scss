@@ -1,2 +1,58 @@
-// This File is imported last, and will override other styles in the cascade
-// Add styles here to make changes without digging in too much
+///////////////////////////////////////////////////////////
+//
+// Banner
+//
+///////////////////////////////////////////////////////////
+
+body > header {
+    text-align: center;
+    background: $header-bg;
+    background-image: url(/images/df-logo.png);
+    background-repeat: no-repeat;
+    background-position: 2% center;
+}
+
+
+
+
+///////////////////////////////////////////////////////////
+//
+// Color tweaks
+//
+///////////////////////////////////////////////////////////
+
+#content header {
+    color: $dark-color;
+}
+
+// RSS subscription image
+.maskImage a[rel="subscribe-rss"] {
+    &:after {
+        background-color: $medium-color;
+    }
+    &:hover:after {
+        background-color: $dark-color;
+    }
+}
+
+
+
+
+///////////////////////////////////////////////////////////
+//
+// Link style tweaks
+//
+///////////////////////////////////////////////////////////
+
+body > nav, aside.sidebar {
+    a {
+        font-weight: bold;
+    }
+}
+
+a, #content a, #tweets a[href*=status]:first-child {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
