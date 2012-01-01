@@ -1,0 +1,12 @@
+<section>
+	<h1>Categories</h1>
+	<ul id="category">
+		{% for category in site.categories %}
+		<li>
+			<a href="/category/{{ category | first }}">{{ category | first  }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+
+
