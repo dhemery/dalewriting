@@ -1,7 +1,9 @@
 --- 
-categories: Nonfiction
+categories: 
+- Nonfiction
 date: 2004/03/06 00:50:00
-tags: developing ideas
+tags: 
+- developing ideas
 title: The Spiral Method for Writing Zeroth Drafts
 comments: true
 published: true

@@ -1,7 +1,9 @@
 --- 
-categories: Nonfiction
+categories: 
+- Nonfiction
 date: 2003/11/11 06:01:00
-tags: books
+tags: 
+- books
 title: Books about Writing
 comments: true
 published: true

@@ -1,7 +1,10 @@
 --- 
-categories: Nonfiction
+categories: 
+- Nonfiction
 date: 2006/09/28 17:35:00
-tags: dale, danofiwrimo
+tags: 
+- dale
+- danofiwrimo
 title: DaNoFiWriMo
 comments: true
 published: true

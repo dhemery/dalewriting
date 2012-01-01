@@ -1,8 +1,11 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2006/10/31 19:50:00
-tags: dale, nanowrimo
-title: "NaNoWriMo 2006—Jeremy Comes Home"
+tags: 
+- dale
+- nanowrimo
+title: "NaNoWriMo 2006\xE2\x80\x93Jeremy Comes Home"
 comments: true
 published: true
 layout: post

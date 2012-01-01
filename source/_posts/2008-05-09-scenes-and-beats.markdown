@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2008/05/09 16:37:56
-tags: scenes
+tags: 
+- scenes
 title: Scenes and Beats
 comments: true
 published: true

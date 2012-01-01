@@ -1,7 +1,10 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2007/10/29 16:12:08
-tags: dale, nanowrimo
+tags: 
+- dale
+- nanowrimo
 title: "NaNoWriMo 2007\xE2\x80\x93Many Happy Returns"
 comments: true
 published: true

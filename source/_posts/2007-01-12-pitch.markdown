@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2007/01/12 18:07:00
-tags: marketing
+tags: 
+- marketing
 title: Example of a professional book sales pitch
 comments: true
 published: true

@@ -1,7 +1,10 @@
 --- 
-categories: Nonfiction
+categories: 
+- Nonfiction
 date: 2004/03/06 00:51:00
-tags: developing ideas, examples
+tags: 
+- developing ideas
+- examples
 title: Experiences with The Spiral Method
 comments: true
 published: true

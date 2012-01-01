@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2008/06/22 16:14:40
-tags: software
+tags: 
+- software
 title: "Introducing Gibberizer:  Automated Gibberish"
 comments: true
 published: true

@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2007/01/10 01:12:00
-tags: planning
+tags: 
+- planning
 title: Outlining and strawberries
 comments: true
 published: true

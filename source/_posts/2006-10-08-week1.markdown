@@ -1,7 +1,11 @@
 --- 
-categories: Nonfiction
+categories: 
+- Nonfiction
 date: 2006/10/08 16:25:00
-tags: dale, danofiwrimo, process
+tags: 
+- dale
+- danofiwrimo
+- process
 title: Reflections from DaNoFiWriMo Week 1
 comments: true
 published: true

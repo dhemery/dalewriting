@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2003/09/15 21:00:39
-tags: pov
+tags: 
+- pov
 title: Third Person Underhanded
 comments: true
 published: true

@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2008/05/22 03:16:42
-tags: developing ideas
+tags: 
+- developing ideas
 title: Developing Story Ideas by Clustering
 comments: true
 published: true

@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2008/05/14 22:03:07
-tags: reviews
+tags: 
+- reviews
 title: Fantasy and Science Fiction July 2008
 comments: true
 published: true

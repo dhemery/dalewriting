@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2008/09/10 21:22:27
-tags: characters
+tags: 
+- characters
 title: "Interviewing Characters: Follow the Energy"
 comments: true
 published: true

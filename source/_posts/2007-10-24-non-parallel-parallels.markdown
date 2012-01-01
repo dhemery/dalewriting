@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2007/10/24 21:50:40
-tags: sentences
+tags: 
+- sentences
 title: Non-parallel parallels
 comments: true
 published: true

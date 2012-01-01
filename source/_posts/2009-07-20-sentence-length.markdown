@@ -1,7 +1,14 @@
 --- 
-categories: [Fiction, Nonfiction]
+categories: 
+- Fiction
+- Nonfiction
 date: 2009/07/20 23:38:18
-tags: exercises, paragraphs, sentence length, sentences, wordforge
+tags: 
+- exercises
+- paragraphs
+- sentence length
+- sentences
+- wordforge
 title: Sentence Length Exercise
 comments: true
 published: true
@@ -23,7 +30,7 @@ The exercise requires multiple revisions, so allow yourself plenty of time.
 If writing either of these lengths is easy for you, adjust the lengths until it becomes difficult. If you usually write sentences of 10 words or fewer, use a maximum of 7 words per sentence, or 5 words. If 25 word sentences are a breeze, try 30 words. The point is to <strong>challenge yourself</strong> by working outside of your comfort range in order to observe how sentence length effects a piece. Within these restrictions, <strong>write the best sentences, the best paragraphs, and the best piece you can.</strong>
 
 Write each revision as long as you need it to be. Make sure that each sentence within each version make sense, and that each version makes sense as a whole.
-
+w
 <strong>Analyze the effects of sentence length.</strong> Analyze your three drafts (the first draft and the two revisions) to identify the effects of sentence length. Make notes about what you observe.
 
 <strong>Final draft.</strong> Write your final draft however you wish, but give particular attention to sentence length. Really look at the differing lengths, and apply what you learned about sentence length during the first two revisions. Always use the sentence length and structure that best serves your piece.

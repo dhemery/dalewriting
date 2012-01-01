@@ -1,7 +1,10 @@
 --- 
-categories: [Fiction, Nonfiction]
+categories: 
+- Fiction
+- Nonfiction
 date: 2003/11/11 06:00:00
-tags: books
+tags: 
+- books
 title: Writing the Natural Way
 comments: true
 published: true

@@ -1,7 +1,10 @@
 --- 
-categories: [Fiction, Nonfiction]
+categories: 
+- Fiction
+- Nonfiction
 date: 2003/11/11 06:00:00
-tags: books
+tags: 
+- books
 title: Writing from the Inside Out
 comments: true
 published: true

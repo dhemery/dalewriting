@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2008/02/13 16:19:19
-tags: podcasts
+tags: 
+- podcasts
 title: Writing Excuses Podcast
 comments: true
 published: true

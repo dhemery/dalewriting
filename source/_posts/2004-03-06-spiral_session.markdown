@@ -1,7 +1,9 @@
 --- 
-categories: Nonfiction
+categories: 
+- Nonfiction
 date: 2004/03/06 00:52:00
-tags: developing ideas
+tags: 
+- developing ideas
 title: A Spiral Method Writing Session
 comments: true
 published: true

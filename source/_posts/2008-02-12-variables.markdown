@@ -1,7 +1,9 @@
 --- 
-categories: Fiction
+categories: 
+- Fiction
 date: 2008/02/12 05:02:28
-tags: developing ideas
+tags: 
+- developing ideas
 title: Writing with Variables
 comments: true
 published: true

@@ -1,7 +1,14 @@
 --- 
-categories: [Fiction, Nonfiction]
+categories: 
+- Fiction
+- Nonfiction
 date: 2009/07/20 19:08:54
-tags: exercises, narrative flow, paragraphs, sentences, wordforge
+tags: 
+- exercises
+- narrative flow
+- paragraphs
+- sentences
+- wordforge
 title: Narrative Flow Exercise
 comments: true
 published: true

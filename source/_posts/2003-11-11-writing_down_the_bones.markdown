@@ -1,7 +1,11 @@
 --- 
-categories: [Fiction, Nonfiction]
+categories: 
+- Fiction
+- Nonfiction
 date: 2003/11/11 06:00:00
-tags: books, exercises
+tags: 
+- books
+- exercises
 title: Writing Down the Bones
 comments: true
 published: true
