@@ -1,9 +1,10 @@
 <section>
 	<h1>Categories</h1>
 	<ul id="category">
+		<li><a href="/archives">All Posts</a></li>
 		{% for category in site.categories %}
 		<li>
-			<a href="/{{ site.category_dir }}/{{ category | first | downcase | replace:' ','-' }}">{{ category | first  }}</a>
+			<a href="/{{ site.category_dir }}/{{ category | first | downcase | replace:' ','-' }}">{{ category | first  }} ({{ category[1].size }})</a>
 		</li>
 		{% endfor %}
 	</ul>
