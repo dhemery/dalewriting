@@ -7,9 +7,9 @@
 body > header {
     text-align: center;
     background: $header-bg;
-    background-image: url(/images/df-logo.png);
-    background-repeat: no-repeat;
-    background-position: 2% center;
+//    background-image: url(/images/logo.png);
+//    background-repeat: no-repeat;
+//    background-position: 2% center;
 }
 
 
@@ -22,17 +22,12 @@ body > header {
 ///////////////////////////////////////////////////////////
 
 #content header {
-    color: $dark-color;
+    color: $main-color;
 }
 
-// RSS subscription image
+// Turn off RSS subscription image
 .maskImage a[rel="subscribe-rss"] {
-    &:after {
-        background-color: $medium-color;
-    }
-    &:hover:after {
-        background-color: $dark-color;
-    }
+	display: none;
 }
 
 
