@@ -6,7 +6,7 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "root@dhemery.com"
 ssh_port       = "22"
-document_root  = "/srv/www/dalewriting"
+document_root  = "/srv/www/dalewriting/public"
 rsync_delete   = true
 deploy_default = "rsync"
 
