@@ -1,37 +1,34 @@
-$dark-color: rgb(0%, 40%, 40%);
-$medium-color: scale-saturation(scale-lightness($dark-color, 50), -80);
-$light-color: scale-saturation(scale-lightness($dark-color, 90), -90);
-$very-light-color: scale-saturation(scale-lightness($dark-color, 98), -90);
+@import "local/_colors.scss";
 
-$link-color: $dark-color;
+$link-color: $main-color;
 $link-color-hover: $link-color;
 $link-color-visited: $link-color;
 
-$header-bg: $dark-color;
-$main-bg: $very-light-color;
-$page-bg: $medium-color;
+$header-bg: $main-color;
+$main-bg: $content-background-color;
+$page-bg: $trim-color;
 
-$title-text: white;
+$title-text: $chrome-color;
 $subtitle-color: $title-text;
-$text-color-light: $medium-color;
+$text-color-light: $trim-color;
 
-$nav-bg: $light-color;
+$nav-bg: $chrome-color;
 $nav-bg-front: $nav-bg;
 $nav-bg-back: $nav-bg;
-$nav-border-top: $light-color;
-$nav-color: $dark-color;
+$nav-border-top: $chrome-color;
+$nav-color: $main-color;
 $nav-color-hover: $nav-color;
 
-$sidebar-bg: $light-color;
-$sidebar-color: $dark-color;
+$sidebar-bg: $chrome-color;
+$sidebar-color: $main-color;
 $sidebar-link-color: $sidebar-color;
 $sidebar-link-color-hover: $sidebar-color;
 $sidebar-link-color-subdued: $sidebar-color;
 $sidebar-link-color-subdued-hover: $sidebar-color;
-$sidebar-border: $medium-color;
+$sidebar-border: $trim-color;
 $twitter-status-link: $sidebar-color;
 
-$footer-bg: $light-color;
+$footer-bg: $chrome-color;
 $footer-bg-front: $footer-bg;
 $footer-bg-back: $footer-bg;
 $footer-color: $text-color-light;

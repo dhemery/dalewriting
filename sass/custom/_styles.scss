@@ -1,3 +1,11 @@
+$banner-background-sans-logo: $header-bg;
+$banner-background-with-logo: $header-bg url(/images/logo.png) no-repeat 2% center;
+
+$rss-display-for-site: none;
+$rss-display-for-blog: inherit;
+
+@import "local/_styles.scss";
+
 ///////////////////////////////////////////////////////////
 //
 // Banner
@@ -6,10 +14,7 @@
 
 body > header {
     text-align: center;
-    background: $header-bg;
-    background-image: url(/images/df-logo.png);
-    background-repeat: no-repeat;
-    background-position: 2% center;
+    background: $banner-background;
 }
 
 
@@ -22,16 +27,17 @@ body > header {
 ///////////////////////////////////////////////////////////
 
 #content header {
-    color: $dark-color;
+    color: $main-color;
 }
 
 // RSS subscription image
 .maskImage a[rel="subscribe-rss"] {
+    display: $rss-display;
     &:after {
-        background-color: $medium-color;
+        background-color: $trim-color;
     }
     &:hover:after {
-        background-color: $dark-color;
+        background-color: $main-color;
     }
 }
 
