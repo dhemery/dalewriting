@@ -30,9 +30,8 @@ body > header {
     color: $main-color;
 }
 
-// Turn off RSS subscription image
+// RSS subscription image
 .maskImage a[rel="subscribe-rss"] {
-<<<<<<< HEAD
     display: $rss-display;
     &:after {
         background-color: $trim-color;
@@ -40,9 +39,6 @@ body > header {
     &:hover:after {
         background-color: $main-color;
     }
-=======
-	display: none;
->>>>>>> 02540117c776d9b4ee3a41164bbdc161551e7b6f
 }
 
 
