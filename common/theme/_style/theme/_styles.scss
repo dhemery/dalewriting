@@ -1,0 +1,64 @@
+$banner-background-sans-logo: $header-bg;
+$banner-background-with-logo: $header-bg url(/images/logo.png) no-repeat 2% center;
+
+$rss-display-for-site: none;
+$rss-display-for-blog: inherit;
+
+@import "../custom/_styles.scss";
+
+///////////////////////////////////////////////////////////
+//
+// Banner
+//
+///////////////////////////////////////////////////////////
+
+body > header {
+    text-align: center;
+    background: $banner-background;
+}
+
+
+
+
+///////////////////////////////////////////////////////////
+//
+// Color tweaks
+//
+///////////////////////////////////////////////////////////
+
+#content header {
+    color: $main-color;
+}
+
+// RSS subscription image
+.maskImage a[rel="subscribe-rss"] {
+    display: $rss-display;
+    &:after {
+        background-color: $trim-color;
+    }
+    &:hover:after {
+        background-color: $main-color;
+    }
+}
+
+
+
+
+///////////////////////////////////////////////////////////
+//
+// Link style tweaks
+//
+///////////////////////////////////////////////////////////
+
+body > nav, aside.sidebar {
+    a {
+        font-weight: bold;
+    }
+}
+
+a, #content a, #tweets a[href*=status]:first-child {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
