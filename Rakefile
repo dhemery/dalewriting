@@ -1,56 +1,21 @@
 require 'rake/clean'
 
-common_dir = 'common'
-common_content_dir = File.join(common_dir, 'content')
-common_theme_dir = File.join(common_dir, 'theme')
+merge_dir = 'source'
+modules = ['diddleman', 'den.domain', 'dogger', 'site']
 
-domain_dir = 'domain'
-domain_theme_dir = File.join(domain_dir, 'theme')
+task default: :merge
 
-custom_content_dir = 'content'
-custom_config_file = 'config.yml'
+desc "Clean and merge"
+task fresh: [:clean, :merge]
 
-build_dir = 'build'
-build_config_file = File.join(build_dir, '_config.yml')
-build_style_dir = File.join(build_dir, '_style')
-site_dir = 'site'
-
-task :build_dir do
-    mkdir_p build_dir
+desc "Merge all files from all modules into the source directory"
+task :merge do
+    mkdir_p merge_dir
+    modules.each do |m|
+        Dir.foreach(m) do |f|
+            cp_r File.join(m, f), merge_dir unless f.start_with?('.', '_')
+        end
+    end
 end
 
-task :content => [:common_content] do
-    Dir.foreach(custom_content_dir) { |f| cp_r File.join(custom_content_dir, f), build_dir unless f.start_with?('.') }
-    `cat #{custom_config_file} >> #{build_config_file}`
-end
-
-task :common_content => [:build_dir] do
-    Dir.foreach(common_content_dir) { |f| cp_r File.join(common_content_dir, f), build_dir unless f.start_with?('.') }
-end
-
-task :common_theme => [:build_dir] do
-    Dir.foreach(common_theme_dir) { |f| cp_r File.join(common_theme_dir, f), build_dir unless f.start_with?('.') }
-end
-
-task :default => [:prep]
-
-task :domain_theme => [:common_theme] do
-    Dir.foreach(domain_theme_dir) { |f| cp_r File.join(domain_theme_dir, f), build_dir unless f.start_with?('.') }
-end
-
-desc "Combine the common and custom content into the build directory"
-task :prep => [:content, :theme]
-
-desc "Generate the site"
-task :site => [:prep, :stylesheet] do
-    `cd #{build_dir} && pwd && jekyll --server`
-end
-
-desc "Generate the style sheet"
-task :stylesheet => [:theme] do
-    `compass compile #{build_style_dir}`
-end
-
-task :theme => [:common_theme, :domain_theme]
-
-CLEAN.include build_dir, site_dir
+CLEAN.include merge_dir
