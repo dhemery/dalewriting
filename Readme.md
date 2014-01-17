@@ -1,4 +1,6 @@
 dalewriting
 ===========
 
-Dale's writing blog.
+Source code for
+Dale's writing blog:
+_[dalewriting](http://dalewriting.dale.emery.name/)_.
