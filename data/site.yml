@@ -1,0 +1,14 @@
+title: dalewriting
+subtitle: dale.emery writes out loud
+shortname: dalewriting
+domain: dalewriting.dale.emery.name
+timezone: Pacific Time (US & Canada)
+post_pattern: posts/:year-:month-:title
+copyright: 2003&#8211;2014 Dale H. Emery
+author:
+  name: Dale H. Emery
+  email: dale@dhemery.com
+modules:
+- den.domain
+- dogger
+- site
